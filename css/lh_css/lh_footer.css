@@ -1,0 +1,52 @@
+.lh_footer{
+    font-size: 12px!important;
+    color: #FFFFFF;
+}
+.lh_footer .lh_footertop{
+    padding: 1% 3%;
+    background: #2F2F30;
+}
+.lh_footer .lh_footertop h3{
+    background: url('../../img/lh_img/ico-2.png') right no-repeat;
+    padding-right: 30px;
+    color: #fff;
+    font-size: 1.375em;
+    line-height: 20px;
+    height: 20px;
+    display: inline-block;
+}
+.lh_footer .lh_footertop a{
+    font-size: 1.0em;
+    padding-right: 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.lh_footer .lh_footerbottom{
+    text-align: center;
+    padding: 1% 3%;
+    background: #000000;
+}
+.lh_footer .lh_footerbottom i{
+    font-style: normal;
+    padding: 0 8px;
+}
+.lh_footer .lh_footerbottom img{
+   vertical-align: middle;
+}
+.lh_footer .lh_footerbottom span.phone{
+    vertical-align: middle;
+    background: url('../../img/lh_img/ico-3.png') left center no-repeat;
+    padding-left: 30px;
+    height: 25px;
+    line-height: 25px;
+    display: inline-block
+}
+.lh_footer .lh_footerbottom span.place{
+    vertical-align: middle;
+    background: url('../../img/lh_img/ico-4.png') left center no-repeat;
+    padding-left: 30px;
+    height: 25px;
+    line-height: 25px;
+    display: inline-block
+}

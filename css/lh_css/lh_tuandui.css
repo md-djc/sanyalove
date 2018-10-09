@@ -1,0 +1,122 @@
+body{
+    font-size: 12px;
+}
+.tuandui_title{
+    padding: 0 2%;
+    margin-top: 3%;
+}
+.tuandui_title p:nth-of-type(3){
+    padding: 15px 0 3.1% 0;
+}
+.tuandui_title p:nth-of-type(4){
+    width: 26%;
+    margin: 0 auto;
+    background: url('../../img/lh_img/line-1.png') center repeat-x;
+    text-align: center;
+    margin-bottom: 3.1%;
+}
+.tuandui_title p:nth-of-type(4) span{
+    background: #fff;
+    width: 70%;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.team_title{
+    zoom: 1;
+    width: 84%;
+    margin: 3% auto;
+}
+.team_title::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.text{
+    width: 100%;
+    line-height: 200%;
+    font-size: 1.275em;
+    color: #A29161;
+}
+.pic{
+    width: 100%;
+}
+.team_list{
+    margin-left: 5%;
+    margin-right: 5%;
+    zoom: 1;
+}
+.team_list::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.team_number{
+    zoom: 1;
+    width: 94%;
+    float: left;
+    margin: 3%;
+}
+.team_number::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.pic>span{
+    font-size: 1.875em;
+    color: #A29161;
+}
+
+.pic>p{
+    padding: 10px 0;
+    font-size: 1.275em;
+}
+.pic>p>img{
+    width: 100%;
+}
+
+.end_title{
+    width: 26%;
+    margin: 0 auto;
+    background: url('../../img/lh_img/line-1.png') center repeat-x;
+    text-align: center;
+    margin-bottom: 3.1%;
+}
+.end_title span{
+    background: #fff;
+    width: 70%;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+@media screen and (min-width: 768px){
+    .team_title{
+        width: 600px;
+    }
+    .text{
+        width: 50%;
+        line-height: 200%;
+        font-size: 1.275em;
+        float: left;
+        color: #A29161;
+    }
+    .pic{
+        width: 44%;
+        padding-left: 3%;
+        float: right;
+        border-left: 2px solid #A29161;
+    }
+    .team_list{
+        margin-left: 12%;
+        margin-right: 12%;
+        zoom: 1;
+    }
+    .team_number{
+        zoom: 1;
+        width: 44%;
+        float: left;
+        margin: 3%;
+    }
+}

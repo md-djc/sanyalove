@@ -1,0 +1,283 @@
+body{
+	overflow-x: hidden;
+}
+.title {
+	text-align: center;
+	padding: 0 2%;
+	margin-top: 3%;
+	margin-bottom: 5%;
+}
+.title .text2 {
+	font-size: 12px;
+	padding: 15px;
+}
+
+.title .text3 {
+	font-size: 12px;
+}
+
+p {
+	display: block;
+}
+
+.title2 {
+	width: 30%;
+    margin: 0 auto;
+    background:url("../../img/lyc-img/line-1.png") center repeat-x;
+    text-align: center;
+    margin-bottom: 3.1%;
+	
+}
+
+.title2 span {
+	background: #fff;
+    width: 70%;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 4px;	
+}
+.backgo {
+
+	border: none;
+	opacity: 0.8;
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	cursor: pointer;
+	display: none;
+	color: white;
+	z-index: 666;
+}
+.show{
+	margin-top: 30px;
+	width: 100%;
+	text-align: center;
+}
+.show img{
+	width: 100%;
+}
+.yy-title{
+	margin: 2%;
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	font-size: 25px;
+}
+.yy-title p{
+	margin: 1%;
+	font-size: 18px;
+	text-align: center;
+}
+form{
+	margin:3% auto;
+	margin-top: 5%;
+	width: 100%;
+	overflow: hidden;
+}
+form ul{
+  
+	overflow: hidden;
+}
+form ul li{
+	width: 40%;
+	float: left;
+	margin-left: 8%;
+	margin-bottom: 3%;
+	
+}
+
+.input-group input{
+	float: left;
+	width:400%;
+	height: 40px;
+	
+}
+.con1{
+	border-top: 1px dashed darkgoldenrod;
+	height: 20px;
+	width: 100%;
+	font-size: 12px;
+   
+}
+.con{
+	border-top: 1px dashed darkgoldenrod;
+	width: 100%;
+	font-size: 12px;
+	height: 40px;
+
+}
+
+.five{
+	float: left;
+	width: 90%;
+	height: 30px;
+}
+.input-group .main{
+	float: left;
+	width: 284%;
+	height: 40px;
+}
+.five1{
+	width: 88%;
+}
+textarea{
+	width: 84%;
+}
+.t5,.t8{
+	width: 100%;
+}
+.col{
+	margin-left: -15px;
+	
+}
+.col span{
+	height: 30px;
+
+}
+.menu{
+	width: 310px;
+}
+.click{
+	width: 310px;
+	background: white;
+}
+.choose{
+	float: right;
+		
+}
+.choose1{
+	float: left;
+	color:gray;
+		
+}
+.menu li{
+	width: 100%;
+}
+
+select{
+	width: 400%;
+	height: 40px;
+}
+.t9{
+	width: 100%;
+	margin-left: 0;
+}
+.find{
+	display: block;
+	text-align: center;
+	height: 40px;
+	width: 150px;
+	border: 1px solid gray;
+	cursor: pointer;
+	margin: 0 auto;
+	font-size: 20px;
+	line-height: 40px;
+}
+.input-group .form{
+	width:130%;
+}
+@media (max-width:680px ) {
+form{
+	width: 100%;
+
+}
+form ul li {
+	width: 100%;
+	margin-bottom: 3%;
+	float: none;
+	
+}
+
+.input-group input{
+	float: left;
+	width:90%;
+	height: 40px;
+	
+}
+.con1{
+	border-top: 1px dashed darkgoldenrod;
+	height: 20px;
+	width: 100%;
+	font-size: 12px;
+   
+}
+.con{
+	border-top: 1px dashed darkgoldenrod;
+	width: 100%;
+	font-size: 12px;
+	height: 40px;
+
+}
+
+.five{
+	float: left;
+	width: 90%;
+	height: 30px;
+}
+.input-group .main{
+	float: left;
+	width: 90%;
+	height: 40px;
+}
+.five1{
+	width: 100%;
+}
+textarea{
+	width:90%;
+}
+.t5,.t8{
+	width: 100%;
+}
+.col{
+	margin-left: -15px;
+	
+}
+.col span{
+	height: 30px;
+
+}
+.menu{
+	width: 50%;
+}
+.click{
+	width: 50%;
+	background: white;
+}
+.choose{
+	float: right;
+		
+}
+.choose1{
+	float: left;
+	color:gray;
+		
+}
+.menu li{
+	width: 50%;
+}
+
+select{
+	width: 90%;
+	height: 40px;
+}
+.t9{
+	width: 100%;
+	margin-left: 0;
+}
+.find{
+	display: block;
+	text-align: center;
+	height: 40px;
+	width: 150px;
+	border: 1px solid gray;
+	cursor: pointer;
+	margin: 0 auto;
+	font-size: 20px;
+	line-height: 40px;
+}
+.input-group .form{
+	width:90%;
+}

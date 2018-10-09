@@ -1,0 +1,207 @@
+body{
+    font-size: 12px;
+}
+.jieshao_title{
+    padding: 0 2%;
+    margin-top: 3%;
+}
+.jieshao_title p:nth-of-type(3){
+    padding: 15px 0 3.1% 0;
+}
+.jieshao_title p:nth-of-type(4){
+    width: 26%;
+    margin: 0 auto;
+    background: url('../../img/lh_img/line-1.png') center repeat-x;
+    text-align: center;
+    margin-bottom: 3.1%;
+}
+.jieshao_title p:nth-of-type(4) span{
+    background: #fff;
+    width: 70%;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.bg_box{
+    margin: 3% 5%;
+}
+.bg_box .title{
+    text-align: center;
+    padding: 1% 0;
+    color: #AC9628;
+}
+.title span{
+    background: #fff;
+    display: inline-block;
+    padding: 0.5% 0;
+    font-weight: normal;
+}
+.title span i img{
+   width: 80%;
+}
+.title span p{
+    font-size: 2.075em;
+    color: #AC9628;
+}
+.img{
+    width: 100%;
+    padding: 3%;
+}
+.text{
+    width: 100%;
+    padding: 3%;
+}
+.img img{
+    max-width: 100%;
+}
+/*第一部分*/
+.st1{
+    zoom: 1;
+}
+.st1::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.st1 .text{
+    float: left;
+    background: #F9F9F9;
+}
+.st1 .text p{
+    background: url('../../img/lh_img/line-4.png') bottom repeat-x;
+    padding: 15px 0;
+    font-size: 1.175em;
+    line-height: 180%;
+}
+
+/*第二部分*/
+.st2{
+    zoom: 1;
+}
+.st2::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.st2 .img{
+    float: left;
+}
+.st2 .img img{
+    margin-bottom:1%;
+}
+
+.st2 .text p{
+    background: url('../../img/lh_img/line-4.png') bottom repeat-x;
+    padding: 15px 0;
+    font-size: 1.175em;
+    line-height: 180%;
+}
+/*第三部分*/
+.st3{
+    zoom: 1;
+}
+.st3::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.st3 .img img{
+    margin-bottom:1%;
+}
+.st3 .bord{
+    margin-top: 2%;
+    width: 100%;
+    float: left;
+    border: 4px solid #8E8E8E;
+}
+.st3 .text{
+    width: 100%;
+    float: left;
+    border: 4px solid #D2D1D1;
+    background: url('../../img/lh_img/bg-3.jpg') right bottom no-repeat #F9F9F9;
+}
+.st3 .text p{
+    background: url('../../img/lh_img/line-4.png') bottom repeat-x;
+    padding: 15px 0;
+    font-size: 1.175em;
+    line-height: 180%;
+}
+/*第四部分*/
+.st4{
+    zoom: 1;
+}
+.st4::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.st4 .text:nth-of-type(1){
+    float: left;
+    padding: 0;
+}
+
+.st4 .text img{
+    width: 100%;
+}
+.st4 .text p{
+    background: url('../../img/lh_img/line-4.png') bottom repeat-x;
+    padding: 15px 0;
+    font-size: 1.175em;
+    line-height: 180%;
+}
+
+.end_title{
+    width: 26%;
+    margin: 0 auto;
+    background: url('../../img/lh_img/line-1.png') center repeat-x;
+    text-align: center;
+    margin-bottom: 3.1%;
+}
+.end_title span{
+    background: #fff;
+    width: 70%;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+@media screen and (min-width: 680px){
+    .bg_box{
+        background: url('../../img/lh_img/line-3.png') center repeat-y;
+        margin: 3% 15%;
+    }
+    .img{
+        width: 49%;
+        padding: 3%;
+    }
+    .text{
+        width: 46%;
+        padding: 3%;
+    }
+    .img img{
+        max-width: 100%;
+    }
+    .st1 .img{
+        float: right;
+    }
+    .st2 .text{
+        float: right;
+        padding: 0;
+    }
+    .st3 .img{
+        float: right;
+    }
+    .st3 .bord{
+        margin-top: 2%;
+        width: 46%;
+        float: left;
+        border: 4px solid #8E8E8E;
+    }
+    .st4 .text:nth-of-type(2){
+        float: right;
+        padding: 0;
+    }
+
+}

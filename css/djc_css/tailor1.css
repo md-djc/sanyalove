@@ -1,0 +1,45 @@
+.container3{
+	margin: 3% auto;
+}
+.container3 ul{
+	margin-bottom: 5%;
+}
+.container3 li>img{
+	width: 100%;
+}
+.container3 li:nth-of-type(2){
+	padding-left: 10%;
+}
+.container3 li .t1{
+	font-size: 20px;
+}
+.container3 li .t2{
+    font-size: 17px;
+    margin-top: 5%;
+}
+.container3 li .t3{
+	margin-top: 20%;
+}
+.container3 li .t4{
+	font-size: 17px;
+    margin-top: 5%;
+	padding-bottom: 20px;
+	background: url('../../img/djc_img/line-6.jpg') bottom left no-repeat;
+}
+.container3 li .t3 a{
+	width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #333333;
+    border: 1px solid #000000;
+    font-size: 16px;
+    display: block;
+    cursor: pointer;
+}
+.container3 .right{
+	float: right;
+}
+.container3 .left{
+	float: left;
+}

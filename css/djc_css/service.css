@@ -1,0 +1,245 @@
+body{
+    color: #000000;
+}
+a:hover{
+	text-decoration: none;
+}
+.logo{
+    padding: 0 2%;
+    margin-top: 3%;
+}
+.logo .text1{
+	font-size: 42px;
+}
+.logo .text2{
+	color: #000000;
+	text-transform: uppercase;
+}
+.logo .text3{
+    padding: 15px 0 3.1% 0;
+    margin: 0px;
+}
+.service{
+	width: 26%;
+    background: url("../../img/djc_img/line-1.png") center repeat-x;
+    margin-bottom: 3.1%;
+    margin: 0 auto;
+}
+.service span{
+	display: inline-block;
+	width: 70%;
+	background: #FFFFFF;
+	margin: 0 auto;
+}
+.service-left{
+    width: 13%;
+    float: left;
+    margin-top: 3%;
+    margin-left: 15%;
+}
+.service-left ul li{
+    width: 80%;
+    float: left;
+    height: 80px;
+}
+.service-left li a{
+    float: left;
+    width: 100%;
+    height: 65px;
+    font-size: 16px;
+    color: #91908f;
+    padding-top: 15px;
+}
+.service-left li a.current{
+	background: url('../../img/djc_img/s.jpg') center no-repeat;
+}
+.service-left li a p{
+	font-size: 13px;
+}
+.service-right {
+    width: 57%;
+    float: left;
+    margin-top: 3%;
+    background: url('../../img/djc_img/bg-1.png') top left no-repeat;
+}
+.service-right .list1{
+    width: 100%;
+    float: left;
+    line-height: 38px;
+    text-indent: 10%;
+    font-size: 2.865em;
+}
+.service-right .list2 {
+	display: inline-block;
+	width: 90%;
+    text-indent: 10%;
+    margin-top: 20px;
+    font-size: 4.375em;
+}
+.service-right .list2 span{
+	background: url(../../img/djc_img/hudie.png) right top no-repeat;
+	padding-right: 40px;
+	font-family: "edwardian script itc";
+}
+.service-item{
+	width: 90%;
+    margin-left: 10%;
+    margin-top: 4%;
+    float: left;
+}
+.service-item .pic{
+	width: 50%;
+	float: left;
+}
+.service-item .pic img{
+	width: 100%;
+	border-radius: 50%;
+}
+.service-item .item1{
+	float: left;
+}
+.service-item .item2{
+	float: right;
+}
+.service-item .describe{
+	width: 50%;
+    padding: 8% 0 0 5%;
+}
+.service-item .link1{
+	float: right;
+}
+.service-item .text1{
+	text-align: left;
+}
+.service-item .link2{
+	float: left;
+}
+.service-item .text2{
+	text-align: right;
+}
+.service-item .describe p{
+	margin: 0px;
+	width: 100%;
+}
+.service-item .describe .desc1{
+	font-size: 3.075em;
+	font-weight: bold;
+	color: #B7B7B3;
+	font-family: "times new roman";
+}
+.service-item .describe .desc2{
+	font-size: 2.075em;
+	text-indent: 30px;
+	color: #D8C647;
+}
+.service-item .link2 .desc2,.link2 .desc4{
+	padding-right: 30px;
+}
+.service-item .describe .desc3{
+	font-size: 1.375em;
+	text-indent: 40px;
+	color: #DBCF7C;
+}
+.service-item .link2 .desc3{
+	padding-right: 40px;
+}
+.service-item .describe .desc4{
+	text-indent: 30px;
+	margin-top: 5%;
+	font-size: 13px;
+}
+.service-right .service-footer{
+	width: 80%;
+	text-align: center;
+	background: url('../../img/djc_img/bg-2.png') center top no-repeat;
+	background-size: 500px;
+	padding-top: 3%;
+	font-size: 2.375em;
+	margin-top: 10%;
+	margin-bottom: 5%;
+	font-family: "edwardian script itc";
+}
+.clear{
+	clear: both;
+}
+.djc_top{
+	position: relative;
+	text-align: right;
+	padding: 2%;
+}
+.djc_top .bg-top{
+	display: inline-block;
+	width: 56px;
+	height: 56px;
+	background: url("../../img/djc_img/top.png") no-repeat;
+}
+@media (max-width: 680px){
+	.service-left{
+		display: none;
+	}
+	.service-right {
+    	background: none;
+    	width: 100%;
+	}
+	.service{
+		width: 230px;	
+	}
+	.service span{
+		font-size: 14px;
+	}
+	.service-right .list1{
+		text-indent: 0;
+		text-align: center;
+	}
+	.service-right .list2{
+		width: 100%;
+		text-indent: 0;
+		text-align: center;
+		font-size: 3.275em;
+		margin: 0;
+	}
+	.service-item{
+		margin: 0 auto;
+		padding: 5%;
+		float: none;
+	}
+	.service-item .pic{
+		width: 100%;
+	}
+	.service-right .describe{
+		width: 100%;
+	}
+	.service-item .describe{
+		padding: 5% 0;
+	}
+	.service-item .describe .desc4{
+		text-indent: 0;
+		text-align: center;
+	}
+	.service-item .describe .desc3{
+		text-indent: 0;
+		text-align: center;
+	}
+	.service-item .describe .desc2{
+		text-indent: 0;
+		text-align: center;
+	}
+	.service-item .link2 .desc3{
+		padding-right: 0px;
+		text-align: center;
+	}
+	.service-item .link2 .desc2,.service-item .link2 .desc4{
+		padding-right: 0px;
+		text-align: center;
+	}
+	.service-right .service-footer{
+		width: 100%;
+		background-size: 90%;
+	}
+	.service-item .describe .desc1 {
+		text-align: center;
+	}
+	.service-right .list2 span{
+		padding-right: 32px;
+	}
+}

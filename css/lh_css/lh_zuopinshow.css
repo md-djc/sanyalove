@@ -1,0 +1,137 @@
+body{
+    font-size: 12px;
+}
+.jieshao_title{
+    padding: 0 2%;
+    margin-top: 3%;
+}
+.jieshao_title p:nth-of-type(3){
+    padding: 15px 0 3.1% 0;
+}
+.jieshao_title p:nth-of-type(4){
+    width: 26%;
+    margin: 0 auto;
+    background: url('../../img/lh_img/line-1.png') center repeat-x;
+    text-align: center;
+    margin-bottom: 3.1%;
+}
+.jieshao_title p:nth-of-type(4) span{
+    background: #fff;
+    width: 70%;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.show_pic{
+    margin: 2% 15%;
+}
+.show_pic .pic{
+    display: inline-block;
+    width: 100%;
+}
+.show_pic .pic img{
+    width: 100%;
+}
+.show_pic .con{
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}
+.con .con_t{
+    font-size: 2.075em;;
+}
+.con .con_con{
+    line-height: 200%;
+    font-size: 1.275em;
+    margin-top: 15px;
+}
+.lunbo_part ul,li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.show_con{
+    line-height: 200%;
+    font-size: 1.275em;
+    padding: 3% 15%;
+}
+.lunbo_part{
+    margin: 0% 5%;
+}
+.show_lunbo{
+    width: 100%;
+    height: 10%;
+    overflow: hidden;
+    position: relative;
+}
+.show_lunbo ul{
+    width: 100%;
+    position: absolute;
+    top: 0%;
+}
+.show_lunbo ul li{
+    width: 100%;
+    height: 100%;
+}
+.show_lunbo img{
+    width: 100%;
+}
+.lunbo_part .show_btn{
+    overflow: hidden;
+    padding: 0 3%;
+    width: 94%;
+    margin: 1% auto;
+}
+.show_btn li{
+    box-sizing: border-box;
+    border-bottom: 2px solid transparent;
+    float: left;
+    width: 12%;
+    padding: 1%;
+    margin: .2%;
+    background: #faf2cc;
+    cursor: pointer;
+}
+.show_btn li.nowshow{
+    border-color: #31ACE2;
+}
+.show_btn li img{
+    width: 100%;
+}
+.end_title{
+    width: 26%;
+    margin: 0 auto;
+    background: url('../../img/lh_img/line-1.png') center repeat-x;
+    text-align: center;
+    margin-bottom: 3.1%;
+}
+.end_title span{
+    background: #fff;
+    width: 70%;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+@media screen and (min-width: 680px){
+    .show_pic .pic{
+        display: inline-block;
+        width: 50%;
+    }
+    .show_pic .pic img{
+        width: 100%;
+    }
+    .show_pic .con{
+        display: inline-block;
+        float: right;
+        width: 50%;
+        padding: 5%;
+        padding-left: 8%;
+        box-sizing: border-box;
+    }
+    .lunbo_part{
+        margin: 0% 15%;
+    }
+}

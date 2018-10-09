@@ -1,0 +1,109 @@
+body{
+    font-size: 12px;
+}
+.jieshao_title{
+    padding: 0 2%;
+    margin-top: 3%;
+}
+.jieshao_title p:nth-of-type(3){
+    padding: 15px 0 3.1% 0;
+}
+.jieshao_title p:nth-of-type(4){
+    width: 26%;
+    margin: 0 auto;
+    background: url('../../img/lh_img/line-1.png') center repeat-x;
+    text-align: center;
+    margin-bottom: 3.1%;
+}
+.jieshao_title p:nth-of-type(4) span{
+    background: #fff;
+    width: 70%;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.bg_box{
+    margin: 3% 5%;
+}
+.bg_box .title{
+    text-align: center;
+    padding: 1% 0;
+    color: #AC9628;
+}
+.title span{
+    background: #fff;
+    display: inline-block;
+    padding: 0.5% 0;
+    font-weight: normal;
+}
+.title span i img{
+   width: 80%;
+}
+.title span p{
+    font-size: 2.075em;
+    color: #AC9628;
+}
+.text{
+    width: 100%;
+    padding: 3%;
+}
+
+/*第一部分*/
+.st{
+    zoom: 1;
+}
+.st::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.st .text{
+    float: left;
+    background: #F9F9F9;
+}
+.st .text h3{
+    text-indent: 2em;
+    font-size: 1.175em;
+    font-weight: bolder;
+}
+.st .text span{
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+.st .text p{
+    background: url('../../img/lh_img/line-4.png') bottom repeat-x;
+    padding: 15px 0;
+    font-size: 1em;
+    line-height: 180%;
+}
+.st .text:nth-of-type(2){
+    float: right;
+}
+
+.end_title{
+    width: 26%;
+    margin: 0 auto;
+    background: url('../../img/lh_img/line-1.png') center repeat-x;
+    text-align: center;
+    margin-bottom: 3.1%;
+}
+.end_title span{
+    background: #fff;
+    width: 70%;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+@media screen and (min-width: 680px){
+    .bg_box{
+        background: url('../../img/lh_img/line-3.png') center repeat-y;
+        margin: 3% 15%;
+    }
+    .text{
+        width: 46%;
+        padding: 3%;
+    }
+}
